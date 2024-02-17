@@ -1,0 +1,371 @@
+* {
+  transition: 0.1s;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 80%;
+  margin: 75px auto;
+  padding: 10px;
+}
+
+#about p {
+  text-align: left;
+  margin: 10px 0;
+}
+#about h1 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 30px;
+}
+#about h2 {
+  text-align: center;
+  margin: 10px 0;
+  color: red;
+  font-size: 25px;
+}
+#about a {
+  color: #265073;
+  padding: 0 5px;
+}
+.App {
+  font-family: "Anta", sans-serif;
+  font-weight: 7000;
+  font-style: normal;
+}
+.noteTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+#logoutButton {
+  padding: 5px 20px;
+  width: fit-content;
+  background-color: chocolate;
+  margin: 10px;
+}
+.notesMainDiv {
+  width: 100%;
+  margin: auto;
+}
+.notes {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  padding: 30px;
+  row-gap: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.noteCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  gap: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  /* margin: auto; */
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 10px;
+}
+p {
+  text-align: center;
+}
+/* .notesMainDiv p {
+  margin: 60px;
+} */
+#regButton {
+  width: 80%;
+  background-color: #f1fada;
+}
+#loginButton {
+  display: block;
+  background-color: #f1fada;
+  width: 80%;
+  margin: auto;
+}
+#loginDashboard {
+  display: block;
+  background-color: aquamarine;
+  width: 30%;
+  margin: 50px auto;
+}
+.note {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 5px;
+  align-items: start;
+  gap: 20px;
+}
+label {
+  border: none;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+#loginForm {
+  width: 80%;
+  margin: 100px auto;
+}
+.noteForm {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input,
+textarea,
+button {
+  border-bottom: 1px solid black;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.editNote,
+.deleteNote {
+  height: 30px;
+  width: 45%;
+}
+.modifyButtons {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.inpdiv {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.material-symbols-outlined {
+  padding: 5px;
+}
+input:active,
+input:focus {
+  border: none;
+}
+.material-symbols-outlined:hover {
+  cursor: pointer;
+}
+#addNote {
+  font-size: 70px;
+  width: fit-content;
+  padding: 0 20px;
+  display: block;
+  margin: 50px auto;
+  height: fit-content;
+}
+#addNote span {
+  font-size: 50px;
+}
+#editTitle,
+#editBody,
+#deleteTitle,
+#deleteBody {
+  width: 80%;
+}
+.passwordInp {
+  border: none;
+  /* width: 95%; */
+  width: 100%;
+  margin: 0;
+}
+#navbar {
+  z-index: 1;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  background-color: #265073;
+  justify-content: space-around;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 100px auto;
+  align-items: start;
+  background-color: #2d9596;
+  border-radius: 10px;
+  padding: 50px 0;
+}
+
+#footer {
+  background-color: #265073;
+  padding: 50px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+#footerDiv {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  height: 300px;
+}
+#footerLeft {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  justify-content: space-around;
+  height: 90%;
+}
+#footerLeft p {
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+}
+#footerRight p {
+  width: 100%;
+  position: relative;
+  top: -10px;
+  font-size: 25px;
+  text-align: center;
+}
+#footerRight {
+  width: 40%;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  margin: auto;
+  height: 90%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footerRight div {
+  /* width: 100%; */
+  font-size: 25px;
+  text-align: center;
+}
+
+#footerEmail,
+#foolterButton,
+#footerMesage {
+  width: 90%;
+  padding: 5px;
+}
+#footerMesage {
+  border-radius: 5px;
+  border-bottom: 1px solid black;
+}
+#foolterButton {
+  background-color: #c7ddcc;
+}
+
+.homeLinks {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 20px; */
+  gap: 20px;
+  width: 70%;
+}
+#header {
+  padding: 5px 0;
+}
+.homeLinks #socialMedia1,
+.homeLinks #socialMedia2,
+.homeLinks #socialMedia3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  width: 60%;
+  transition: 0.5s;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.homeLinks #socialMedia1 a p,
+.homeLinks #socialMedia2 a p,
+.homeLinks #socialMedia3 a p {
+  margin-bottom: 10px;
+}
+.homeLinks #socialMedia1 p,
+.homeLinks #socialMedia2 p,
+.homeLinks #socialMedia3 p {
+  position: relative;
+  top: 3px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.homeLinks #socialMedia1:hover p,
+.homeLinks #socialMedia2:hover p,
+.homeLinks #socialMedia3:hover p {
+  color: #a39274;
+  transition: 0.5s;
+}
+#didsdfdfv {
+  background-color: #c8b7a6;
+  background-color: #7d94b5;
+  background-color: #c29591;
+  background-color: #c8b7a6;
+  background-color: #b6c199;
+}
+
+#palette {
+  height: 100px;
+  display: flex;
+  width: 100%;
+}
+#palette div {
+  width: 20%;
+}
+#palette1 {
+  background-color: #265073;
+}
+#palette2 {
+  background-color: #2d9596;
+}
+#palette3 {
+  background-color: #9ad0c2;
+}
+#palette4 {
+  background-color: #f1fada;
+}
+#palette5 {
+  background-color: white;
+}
+/* #265073
+#2D9596
+#9AD0C2
+#F1FADA */
+
+/* Beige: #c8b7a6
+
+Perriwinkle: #7d94b5
+
+Dusty Rose: #c29591
+
+Maroon Brown: #703f37
+
+Muted Green: #b6c199 */
