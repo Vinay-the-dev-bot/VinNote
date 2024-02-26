@@ -3,7 +3,7 @@ import { url } from "../App";
 import { useNavigate } from "react-router";
 import { useDispatch } from "react-redux";
 import { Button, useToast } from "@chakra-ui/react";
-
+import LoadingToast from "../Pages/LoadingToast";
 const Login = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -12,8 +12,11 @@ const Login = () => {
   const toast = useToast();
   const dispatch = useDispatch();
 
+  const [isLoading, setIsLoading] = useState(false);
+
   const handleLogin = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     const res = await fetch(`${url}/users/login`, {
       method: "POST",
       headers: {
@@ -26,6 +29,7 @@ const Login = () => {
     });
     const data = await res.json();
     if (data.token) {
+      setIsLoading(false);
       toast({
         title: "Successfully Logged In.",
         status: "success",
@@ -40,6 +44,7 @@ const Login = () => {
         navigate("/dashboard");
       }, 1000);
     } else {
+      setIsLoading(false);
       toast({
         title: `${data.msg}`,
         status: "error",
@@ -51,6 +56,7 @@ const Login = () => {
 
   return (
     <>
+      {isLoading && <LoadingToast />}
       <div id="loginForm">
         <form id="form">
           <label>Enter Email</label>

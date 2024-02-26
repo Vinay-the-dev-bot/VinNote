@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# VinNotes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Welcome to VinNotes!** This note-taking platform is designed to provide you with a seamless experience, empowering you to capture, manage, and access your notes effortlessly.
 
-## Available Scripts
+## Live Link
 
-In the project directory, you can run:
+<a href="https://vin-note.netlify.app/" target="_blank">VinNotes Link</a>
 
-### `npm start`
+## Authors
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Vinayagoud Meti
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [About VinNote](#about-vinNotes)
+- [Technology Stack](#technology-stack)
+- [Project Overview](#project-overview)
+- [Project Screenshots](#project-screenshots)
+- [Backend GitHub Repositories](#backend-github-repositories)
+- [Backend Live](#backend-live)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About VinNotes
 
-### `npm run build`
+VinNote serves as a showcase of my skills and expertise in front-end and back-end development. From designing elegant user interfaces to implementing robust backend functionalities. My goal with VinNote is to demonstrate my ability to deliver high-quality software solutions that meet the needs of users while showcasing my creativity and attention to detail.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technology Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Our website is built using cutting-edge technologies to ensure a robust and user-friendly experience:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend:**
 
-### `npm run eject`
+  - HTML
+  - CSS
+  - JavaScript
+  - React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **State Management:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - Redux
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **UI Libraries:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  - Chakra UI
 
-## Learn More
+- **Backend**
+  - Node.js
+  - express.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Overview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+VinNotes is a user-friendly platform designed to simplify the note-taking process. With intuitive features and a sleek interface, users can effortlessly store, edit, and manage their notes from anywhere, at any time. Whether you're jotting down ideas, keeping track of tasks, or organizing meeting notes, VinNotes provides the tools you need to stay organized and productive.
 
-### Code Splitting
+## Project Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here are some screenshots from our VinNotes application:
 
-### Analyzing the Bundle Size
+- **Home:**
+  ![Home](https://github.com/geeteshmehuria/simple-notes-backend/assets/70647591/65997d45-a196-4a6d-ac19-d99df1f2d56b)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Sign Up:**
+  ![Sign Up](https://github.com/geeteshmehuria/simple-notes-backend/assets/70647591/ccb0a4f0-f4ef-4b1b-a603-84529f9c4307)
 
-### Making a Progressive Web App
+- **Log In:**
+  ![Log In](https://github.com/geeteshmehuria/simple-notes-backend/assets/70647591/ddde0218-467b-43a2-8bd5-05ddd2156e88)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Dashboard:**
+  ![Dashboard](https://github.com/geeteshmehuria/simple-notes-backend/assets/70647591/18c57fec-bffd-4474-96f3-b81c888a3952)
 
-### Advanced Configuration
+- **Add Notes:**
+  ![Add Notes](https://github.com/geeteshmehuria/simple-notes-backend/assets/70647591/b16fae61-e95f-41e0-a44b-41ee15a744e8)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Backend GitHub Repositories
 
-### Deployment
+<a href="https://github.com/Vinay-the-dev-bot/VinNote_Server" target="_blank">VinNote Server Github link</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Backend Live
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://vinnote-server.onrender.com" target="_blank">VinNote Backend Live link</a>
