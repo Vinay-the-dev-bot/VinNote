@@ -127,7 +127,7 @@ const NotesCard = ({ note }) => {
           >
             <ModalOverlay />
             <ModalContent backgroundColor="#7d94b5">
-              <ModalHeader>Modal Title</ModalHeader>
+              <ModalHeader>Delete A Note</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 <form className="noteForm">
@@ -167,7 +167,7 @@ const NotesCard = ({ note }) => {
           >
             <ModalOverlay />
             <ModalContent backgroundColor="#7d94b5">
-              <ModalHeader>Modal Title</ModalHeader>
+              <ModalHeader>Update A Note</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 <form className="noteForm">

@@ -86,7 +86,7 @@ const Notes = () => {
         >
           <ModalOverlay />
           <ModalContent backgroundColor="#7d94b5">
-            <ModalHeader>Modal Title</ModalHeader>
+            <ModalHeader>Add A Note</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
               <AddNotes addOnClose={addOnClose} />
