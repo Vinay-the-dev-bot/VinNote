@@ -4,7 +4,7 @@
 
 ## Live Link
 
-<a href="https://vin-note.netlify.app/" target="_blank">VinNotes Link</a>
+<a href="https://vin-note.netlify.app/" target="_blank">VinNotes</a>
 
 ## Authors
 
@@ -55,10 +55,10 @@ VinNotes is a user-friendly platform designed to simplify the note-taking proces
 Here are some screenshots from our VinNotes application:
 
 - **Home:**
-  ![Home]![VinNote](https://github.com/Vinay-the-dev-bot/VinNote/assets/57762023/acd62e82-f7da-4ba5-8e96-471532c60ee2)
+  ![Home](https://github.com/Vinay-the-dev-bot/VinNote/assets/57762023/acd62e82-f7da-4ba5-8e96-471532c60ee2)
 
 - **Add Notes:**
-  [Add Note](https://github.com/Vinay-the-dev-bot/VinNote/assets/57762023/42d1ff98-0227-4a49-a559-f3260260d7b8)
+  ![Add Note](https://github.com/Vinay-the-dev-bot/VinNote/assets/57762023/42d1ff98-0227-4a49-a559-f3260260d7b8)
 
 - **Sign Up:**
  ![Sign Up](https://github.com/Vinay-the-dev-bot/VinNote/assets/57762023/18103288-0f8b-4717-962b-512b174364db)
